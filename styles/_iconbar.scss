@@ -1,3 +1,30 @@
 .iconbar {
   @apply w-16 bg-blue-900 h-screen flex-none;
+  // @apply p-2;
+  @apply flex flex-col items-center;
+
+  & .logo {
+    @apply text-center flex flex-col px-2 py-5;
+
+    @apply mb-10;
+  }
+
+  &__menu {
+    @apply flex flex-col flex-grow;
+  }
+
+  &__item {
+    @apply py-4 w-full flex items-center justify-center cursor-pointer;
+    @apply text-blue-100;
+    &:hover {
+      @apply bg-blue-800;
+    }
+    & > svg {
+      @apply w-7 h-7;
+    }
+  }
+
+  &__download {
+    @apply bg-green-700;
+  }
 }
