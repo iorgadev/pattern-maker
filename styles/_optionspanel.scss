@@ -1,6 +1,10 @@
 .optionspanel {
-  @apply w-80 bg-blue-50 h-screen flex-none overflow-hidden;
-  @apply p-2;
+  @apply p-2 w-80 bg-blue-50 h-screen flex-none overflow-hidden z-10;
+  @apply transform transition-all duration-300 translate-x-0;
+}
+
+.closed {
+  @apply -translate-x-full w-0 p-0;
 }
 
 .searchbar {

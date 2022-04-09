@@ -1,5 +1,5 @@
 .iconbar {
-  @apply w-16 bg-blue-900 h-screen flex-none overflow-hidden;
+  @apply w-16 bg-blue-900 h-screen flex-none overflow-hidden z-20;
   // @apply p-2;
   @apply flex flex-col items-center;
 

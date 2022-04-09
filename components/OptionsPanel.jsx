@@ -28,7 +28,7 @@ export default function OptionsPanel() {
   };
 
   return (
-    <div className="optionspanel">
+    <div className="optionspanel closed">
       <SearchBar />
       <SearchOptions />
 
