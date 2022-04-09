@@ -10,7 +10,7 @@ export default function IconBar() {
   return (
     <div className="iconbar">
       <div className="logo">
-        <img src="images/logo.png" alt="logo" width={`100%`} />
+        <img src="images/logo2.png" alt="logo" width={`100%`} />
         <span className="font-bold text-xs">Pattern</span>
         <span className="font-bold text-xs">Maker</span>
       </div>
