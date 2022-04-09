@@ -1,3 +1,31 @@
 .optionspanel {
-  @apply w-60 bg-blue-50 h-screen flex-none;
+  @apply w-80 bg-blue-50 h-screen flex-none overflow-hidden;
+  @apply p-2;
+}
+
+.searchbar {
+  @apply w-full h-12 border border-blue-300;
+  @apply flex items-center relative;
+  & > input {
+    @apply w-full h-full border-0;
+    @apply p-2 text-blue-900;
+  }
+}
+
+.searchoptions {
+  @apply flex space-x-0 px-10 mt-5;
+
+  & .option {
+    @apply bg-blue-200 flex-1 flex items-center justify-center;
+    @apply text-xl font-bold pt-1 pb-2;
+    &:first-child {
+      @apply rounded-l-md;
+    }
+    &:last-child {
+      @apply rounded-r-md;
+    }
+  }
+  & .option.selected {
+    @apply bg-blue-500;
+  }
 }

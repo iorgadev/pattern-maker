@@ -19,6 +19,12 @@ a {
   box-sizing: border-box;
 }
 
+canvas {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
 .layout {
   @apply w-screen h-screen bg-neutral-900 text-white flex;
 }
